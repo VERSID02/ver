@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+.top-container {
+    background-color: darkcyan;
+    padding-top: 80px;
+    position: relative;
+}
+.middle-container {
+    position: relative;
+}
+.bottom-container {
+position: relative;
+}
+#index_h1 {
+    font-size: 70px;
+    line-height: 1.5;
+    /* if the font size is set in px, if a users default text size in their browser is 
+    changed it wont have effect on the set font size. to make a set font size to also if 
+    the browser default text size is changed "the font size must be set in % or em" hence 
+    making it a dynamic font size. the conversion rate is 100% = 16px = 1em. Also font size
+    can be stacked on top each other i.e if the body font size is 2em/200% while a h1 font size is 
+    5em when when viewing the website the h1 whose font size is 5em/500% would be viewed as 7em/700% 
+    Note only % and em font sizes can be stacked if px is used instead it would use the directly set px 
+    or you can uses rem to make it ignore any parent font size and only uses the set font size*/
+    margin: 0 auto 30px auto;
+    display: inline-block;
+    width: 900px;
+}
+.h2 {
+    text-decoration: underline;
+    width: 500px;
+    margin: 0 auto 0 auto;
+    font-size: 2.5rem;
+}
+.cloud1 {
+    position: absolute;
+    right: 400px;
+    top: 31px;
+}
+.cloud2 {
+    position: absolute;
+}
+.mountain {
+    position: relative;
+    top: 2px;
+}
+#profile_pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-teakwondo {
+    /* the float element has an opposite known as clear which make all 
+    data located next to the set direction to be pushed to a new line */
+    width: 25%;
+    float: left;
+    margin: auto 15px auto auto;
+}
+.skill-kenjutsu {
+    width: 25%;
+    float: right;
+    margin-left: 15px;
+}
+.footer {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    font-family: 'Tilt Neon', cursive;
+}
