@@ -2,6 +2,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
 }
 .top-container {
     background-color: darkcyan;
