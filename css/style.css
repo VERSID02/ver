@@ -130,16 +130,3 @@ body {
     bottom: 20px;
     left: 35px;
 }
-.button {
-    display: inline-block;
-    background-color: #3498db;
-    border-radius: 28px;
-    font-size: 20px;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-}
-.button:hover {
-    background-color: #3cb0fd;
-    
-}
