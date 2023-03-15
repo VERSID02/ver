@@ -1,8 +1,9 @@
 body {
     margin: 0px;
     text-align: center;
+    color: #40514E;;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightblue;
+    background-color:lightblue;
 }
 .top-container {
     background-color: darkcyan;
@@ -19,11 +20,9 @@ body {
     background-color: #66BFBF;
     font-family:Arial, Helvetica, sans-serif sans-serif;
     font-size: 1.5rem;
-
 }
 #index_h1 {
     font-size: 70px;
-    line-height: 1.5;
     /* if the font size is set in px, if a users default text size in their browser is 
     changed it wont have effect on the set font size. to make a set font size to also if 
     the browser default text size is changed "the font size must be set in % or em" hence 
@@ -59,11 +58,15 @@ body {
     width: 100px;
     border-radius: 50%;
 }
+.profile_text {
+    width: 30%;
+    display: inline-block; /* or i could have just set the margin to auto also */
+    text-align: center;
+}
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 .skill-teakwondo {
     /* the float element has an opposite known as clear which make all 
@@ -126,4 +129,17 @@ body {
     position: relative;
     bottom: 20px;
     left: 35px;
+}
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #3cb0fd;
+    
 }
