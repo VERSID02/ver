@@ -5,35 +5,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:lightblue;
 }
-h1 {
-            color: #66BFBF;
-        }
-        h2 {
-            color: #66BFBF;
-            font-weight: bold;
-        }
-        h3 {
-            color: #11999E;
-        }
-        hr {
-            border-width: 10px;
-            border-style: dotted none none none;
-            width: 7%;
-            height: 30px;
-            color: gray;
-        }
-        p {
-            color: #40514E;
-            line-height: 2;
-        }
-        a {
-            color: #11999E;
-            margin: 10px 20px;
-            text-decoration: none;
-        }
-        a:hover {
-            color: #EAF6F6;
-        }
+
 .top-container {
     background-color: darkcyan;
     padding-top: 80px;
@@ -110,7 +82,6 @@ h1 {
     margin-left: 15px;
 }
 .footer {
-    color: #3498db;
     position: fixed;
     top: 25px;
     right: 20px;
